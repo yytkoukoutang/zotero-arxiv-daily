@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '26 18 * * *'
-dd
+
 jobs:
   calculate-and-send:
     runs-on: ubuntu-latest
